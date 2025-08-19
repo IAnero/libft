@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/20 15:12:38 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/17 14:44:09 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:28:46 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

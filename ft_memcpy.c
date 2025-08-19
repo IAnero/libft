@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/20 14:08:16 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/17 14:44:07 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:28:44 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

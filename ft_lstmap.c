@@ -1,36 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlcpy.c                                       :+:      :+:    :+:   */
+/*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/24 11:36:12 by herrakot          #+#    #+#             */
-/*   Updated: 2025/02/14 17:29:03 by herrakot         ###   ########.fr       */
+/*   Created: 2025/02/14 16:56:51 by herrakot          #+#    #+#             */
+/*   Updated: 2025/02/14 18:37:57 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char *dst, const char *src, size_t size)
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
-	unsigned int	i;
-	unsigned int	count;
+	t_list	*current;
+	t_list	*res;
 
-	i = 0;
-	count = 0;
-	while (src[i] != '\0')
+	if (!lst || !f || !del)
+		return (NULL);
+	res = ft_lstnew(f(lst->content));
+	current = res;
+	while (lst && lst->next)
 	{
-		i++;
+		if (!current)
+			return (NULL);
+		current->next = ft_lstnew(f(lst->next->content));
+		current = current->next;
+		lst = lst->next;
 	}
-	if (size > 0)
-	{
-		while (src[count] != '\0' && count < size - 1)
-		{
-			dst[count] = src[count];
-			count++;
-		}
-		dst[count] = '\0';
-	}
-	return (i);
+	return (res);
 }

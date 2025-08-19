@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 11:36:26 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/17 14:45:09 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:29:07 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/19 16:00:45 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/17 14:43:35 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:28:21 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

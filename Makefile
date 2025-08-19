@@ -32,28 +32,35 @@ SRC = ft_atoi.c \
       ft_substr.c \
       ft_tolower.c \
       ft_toupper.c \
-      ft_split.c \
-      get_next_line.c \
-      get_next_line_utils.c \
-      ft_printf.c \
-      ft_putchar.c \
-	ft_putstr.c \
-	ft_putnbr.c \
-	ft_putnbr_unsigned.c \
-	ft_hexa.c \
-	ft_adress.c 
+      ft_split.c
 
+BSRC = ft_lstadd_back.c \
+		ft_lstadd_front.c \
+		ft_lstclear.c \
+		ft_lstdelone.c \
+		ft_lstiter.c \
+		ft_lstlast.c \
+		ft_lstmap.c \
+		ft_lstnew.c \
+		ft_lstsize.c
+
+
+ALL_SRC = ${SRC} ${BSRC}
 OBJ = $(SRC:.c=.o)
+OBJ_ALL = ${ALL_SRC:.c=.o}
 CC = cc
-CFLAGS = -Wall -Wextra -Werror -fPIE
+CFLAGS = -Wall -Wextra -Werror
 all: $(NAME)
 
 $(NAME): $(OBJ)
 	ar -rcs $(NAME) $(OBJ)
 %.o: %.c
 	$(CC) $(CFLAGS) -o $@ -c $<
+bonus : ${OBJ_ALL}
+		ar -rcs $(NAME) $(OBJ_ALL)
+
 clean: 
-	rm -f $(OBJ)
+	rm -f $(OBJ_ALL)
 re:	clean fclean all
 
 fclean: clean

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/18 15:27:10 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/17 16:59:18 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:28:32 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ static int	length_of_char(long n)
 	return (x);
 }
 
-static char	*ft_use_true_result(long n, char *result, int x)
+static char	*ft_utilisation_true_result(long n, char *result, int x)
 {
 	while (n != 0)
 	{
@@ -71,7 +71,7 @@ char	*ft_itoa(int n)
 		result[0] = '-';
 		nb = -nb;
 	}
-	result = ft_use_true_result(nb, result, x);
+	result = ft_utilisation_true_result(nb, result, x);
 	result[x] = '\0';
 	return (result);
 }

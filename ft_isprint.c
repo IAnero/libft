@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/19 12:00:24 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/17 14:44:01 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:28:31 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

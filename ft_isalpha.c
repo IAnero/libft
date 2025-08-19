@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/19 10:32:01 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/17 14:43:57 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:28:25 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

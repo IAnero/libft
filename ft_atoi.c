@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 11:25:41 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/18 18:48:02 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:28:18 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

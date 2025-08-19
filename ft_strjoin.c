@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 11:36:00 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/17 14:44:53 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:29:00 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

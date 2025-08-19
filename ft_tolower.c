@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 11:36:50 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/17 14:45:18 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:29:14 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

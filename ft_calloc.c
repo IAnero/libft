@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/10 12:03:58 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/17 14:43:51 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:28:22 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

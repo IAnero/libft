@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: herrakot <herrakot@student.42antanana>     +#+  +:+       +#+        */
+/*   By: herrakot <herrakot@student.42antananari    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/01 13:22:12 by herrakot          #+#    #+#             */
-/*   Updated: 2024/09/17 19:12:57 by herrakot         ###   ########.fr       */
+/*   Updated: 2025/02/14 17:28:54 by herrakot         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ static char	*ft_dupe(char *str, char c)
 	return (s);
 }
 
-static char	**ft_fill(char **array, char *str, char c, int n_words)
+static char	**ft_remplissage(char **array, char *str, char c, int n_words)
 {
 	int	index;
 
@@ -62,7 +62,7 @@ static char	**ft_fill(char **array, char *str, char c, int n_words)
 	return (array);
 }
 
-int	ft_count(char *str, char c)
+static int	ft_comptage(char *str, char c)
 {
 	int	n_words;
 
@@ -102,9 +102,9 @@ char	**ft_split(char const *str, char c)
 		final_result[1] = NULL;
 		return (final_result);
 	}
-	n_words = ft_count((char *)str, c);
+	n_words = ft_comptage((char *)str, c);
 	final_result = malloc(sizeof(char *) * (n_words + 1));
 	if (!final_result)
 		return (NULL);
-	return (ft_fill(final_result, (char *)str, c, n_words));
+	return (ft_remplissage(final_result, (char *)str, c, n_words));
 }
