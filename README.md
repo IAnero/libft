@@ -20,10 +20,10 @@ Linked lists: ft_lstnew, ft_lstadd_back, ft_lstmap, etc.
 ⚙️ Usage
 
 Clone this repository
-
+```
 git clone <your_repo_url>
 cd libft
-
+```
 
 Compile the library
 
