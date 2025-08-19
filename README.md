@@ -26,16 +26,16 @@ cd libft
 ```
 
 Compile the library
-
+```
 make
-
+```
 
 This will create libft.a.
 
 Compile your program with it:
-
+```
 gcc main.c -L. -lft
-
+```
 ✅ Status
 
 Project done as part of the 42 cursus.
